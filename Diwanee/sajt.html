@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Diwanee Serbia</title>
+	<link rel="stylesheet" type="text/css" href="diwanee.css">
+</head>
+<body>
+
+<style type="text/css">
+
+img {
+   max-width: 100%;
+    height: auto;
+}
+
+.Tablet{
+	display: none;
+}
+
+.Mob{
+	display: none;
+}
+
+.Mobnav{
+	display: none;
+}
+
+@media only screen and (max-width:760px) {
+  .Desk {
+  	display: none;
+  }
+}
+
+@media only screen and (min-width:365px) and (max-width:760px) {
+  .Tablet {
+  	display: block;
+  }
+}
+
+@media only screen and (min-width:325px) and (max-width:365px) {
+  .Mob {
+  	display: block;
+  }
+}
+
+@media only screen and (max-width:325px) {
+  .Mobnav {
+  	display: block;
+  }
+}
+
+</style>
+
+  <div class="Desk">
+    <img src='slike/Desk.png'></img>
+  </div>
+  <div class="Tablet">
+  	<img src="slike/Tablet.png"></img>
+  </div>
+  <div class="Mob">
+  	<img src='slike/Mobile.png'></img>
+  </div>
+  <div class="Mobnav">
+  	<img src='slike/Mobile nav.png'></img>
+  </div>
+
+</body>
+</html>
